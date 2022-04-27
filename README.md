@@ -78,6 +78,7 @@ minikube service my-flask-app --url
 curl <<url-from-step-3>>
 ```
 
+Note: Since Minikube is using an internal IP address (not public), you can only access the URL from host server.
 
 ### Cleanup
 1. If the deployment is not needed anymore, run the following command to delete the deployment and the service.
