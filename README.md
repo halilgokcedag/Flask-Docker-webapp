@@ -20,6 +20,7 @@ Project has a Dockerfile and two folders with a python file, a YAML file and a t
 * Flask
 * Docker
 * Kubernetes (Minikube)
+* Git
 
 ## Getting Started
 
@@ -27,11 +28,13 @@ Project has a Dockerfile and two folders with a python file, a YAML file and a t
 
 This webapp can be deployed to any Kubernetes environment but only Minikube instructions will be provided in this page. Minikube and kubectl are required to deploy this app. If these tools are not already installed on your system, follow below steps. 
 
-Docker can be used as a driver for Minikube. Also it can be used for building Docker images. To install Docker, go to the [Docker Website](https://docs.docker.com/get-docker/)
+To install Git, go to the [Git website](https://git-scm.com/downloads).
+
+Docker can be used as a driver for Minikube. Also it can be used for building Docker images. To install Docker, go to the [Docker Website](https://docs.docker.com/get-docker/).
 
 kubectl is required to communicate with Kubernetes cluster. Go to [Kubernetes website](https://kubernetes.io/docs/tasks/tools/) to install the kubectl.
 
-To install a Minikube cluster, go to the [Minikube website](https://minikube.sigs.k8s.io/docs/start/)
+To install a Minikube cluster, go to the [Minikube website](https://minikube.sigs.k8s.io/docs/start/).
 
 Start your cluster as explained in the Minikube website. Once you can access to the cluster via kubectl, go to Deployment step.
 
