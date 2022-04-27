@@ -12,7 +12,7 @@ This small project deploys a Flask web app microservice on a Kubernetes environm
 }
 ```
 
-Project has a Dockerfile and two folders with a python file, a YAML file and a text file. App folder includes a python file and reqiurements.txt file for required python modules. Docker image has been already created and pushed to the Docker Hub. If needed, image can be re-created by using the Dockerfile in the repository. Deployment folder inclused a YAML file to deploy the web app and the service for access to the web app via NodePort. Nodeport for this service will be 30300
+Project has a Dockerfile and two folders with a python file, a YAML file and a text file. App folder includes a python file and reqiurements.txt file for required python modules. Docker image has been already created and pushed to the Docker Hub. If needed, image can be re-created by using the Dockerfile in the repository. Deployment folder includes a YAML file to deploy the web app and the service for access to the web app via NodePort. Nodeport for this service will be 30300
 
 ## Built With
 
@@ -25,7 +25,7 @@ Project has a Dockerfile and two folders with a python file, a YAML file and a t
 
 ### Prerequisites
 
-This webapp can be deployed to any Kubernetes environment but only Minikube instructions will be provided in this page. Minikube and kubectl is required to deploy this app. If these tools are not already installed on your system, follow below steps. 
+This webapp can be deployed to any Kubernetes environment but only Minikube instructions will be provided in this page. Minikube and kubectl are required to deploy this app. If these tools are not already installed on your system, follow below steps. 
 
 kubectl is required to communicate with Kubernetes cluster. Go to [Kubernetes website](https://kubernetes.io/docs/tasks/tools/) to install the kubectl.
 
